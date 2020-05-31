@@ -1,0 +1,263 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+}
+
+ul{
+	margin-left: -40px;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	font-size: 12px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	position: relative;
+	font-family: Gill Sans, sans-serif;
+}
+.menu > li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 15px;
+	padding: 8px;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+.menu > li:hover{
+	background: #3498db;
+	color: white;
+}
+nav > .col-md-12 > .container{
+	border-bottom: 3px solid black;
+	height: 60px;
+	padding: 0px;
+}
+.menu{
+	width: 60%;
+	float: left;
+	margin-top: 20px;
+	padding: 0px;
+	margin-left: 0px;
+}
+.subscribe{
+	width: 40%;
+	float: right;
+	margin-top: 20px;
+	text-align: right;
+	color: #3498db;
+	padding-right: 10px;
+}
+.subscribe > .fa-search{
+	transform: rotate(90deg);
+	font-size: 16px;
+	cursor: pointer;
+}
+.subscribe > .fa-envelope-o{
+	margin-right: 10px;
+	font-size: 14px;
+}
+.subscribe > span {
+	margin-right: 50px;
+}
+.search-box{
+	margin-top: 30px;
+    background: #ededed;
+    padding: 10px;
+    width: 80%;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 2px 0px 2px 0px #f3f3f3;
+}
+.search-box > input[type="text"]{
+	width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 2px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.search-box > input[type="text"]:focus{
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.logo > img{
+	width: 130px;
+	height: 130px;
+}
+/*slider*/
+.slider{
+	height: 480px;
+	color: white;
+	background-size: cover;
+	display: none;
+}
+.slider-content > span{
+	margin-top: 30px;
+}
+.slider-content{
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 480px;
+	width: 100%;
+	padding: 20px;
+}
+.slider-content > .box-caption{
+	width: 50%;
+    border: 1px solid white;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+  
+    text-align: center;
+    transition: 0.5s;
+}
+.box-caption-1{
+    margin: 15% auto auto auto;
+}
+.box-caption-2{
+	margin: 15% 0% auto auto;
+}
+.box-caption-3{
+	margin: 15% auto auto 0%;
+}
+.slider-content > .box-caption:hover{
+	background: white;
+	color: #314659;
+	cursor: pointer;
+	border: 3px solid #314659;
+}
+.slider-content > .row{
+	margin-top: 80px;
+}
+.slider-content > .row > .left{
+	width: 50%;
+	margin-top: 30px;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+.slider-content > .row > .right{
+	width: 50%;
+	text-align: right;
+	margin-top: 30px;
+}
+.left > ul{
+	padding: 0px;
+	margin: 0px;
+}
+.left > ul > li, .right > ul > li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+}
+/*banner*/
+#banner{
+	margin-top: 15px;
+}
+#banner > .container{
+	padding-left: 0px;
+}
+.box-banner{
+	background-size: cover;
+    height: 200px;
+    width: 32%;
+    margin-left: 15px;
+}
+.banner-content{
+	background: rgba(0, 0, 0, 0.7);
+	height: 200px;
+	padding-top: 40%;
+	padding-left: 5%;
+	color: white;
+	font-size: 15px;
+}
+/*blogs content*/
+#blog-content{
+	margin-top: 50px;
+}
+#trending{
+	background: #ededed;
+	padding: 20px 20px 0px 20px;
+	margin-bottom: 50px;
+}
+#most-viewed{
+	margin-bottom: 50px;
+}
+#featured{
+	background: #212529;
+	padding: 20px 20px 0px 20px;
+	margin-bottom: 50px;
+	color: white;
+}
+#featured-video{
+	margin-bottom: 50px;
+}
+/*sidebar*/
+.sidebar{
+	width: 98%;
+    margin-left: 20px;
+    padding: 20px 10px 20px 20px;
+    border: 1px solid #aaa;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.sidebar > span{
+	background: white;
+    padding: 5px;
+    position: absolute;
+    margin-top: -35px;
+    font-size: 14px;
+}
+.sidebar > .col-md-4 > i{
+	font-size: 18px;
+}
+.box-mail > input[type="text"]{
+	padding: 5px 8px 5px 8px;
+    outline: none;
+    border: 1px solid #aaa;
+    width: 170px;
+}
+.box-mail > button[type="submit"]{
+	padding: 4px 8px 5px 8px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 14px;
+    margin-left: -7px
+}
+.box-ads, .fb-page{
+	margin-left: 35px;
+}
+.sidebar > .categories > ul > li{
+	list-style-type: dotted;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.sidebar > .categories{
+	width: 95%;
+}
+.footer{
+	background: #191b21;
+    color: white;
+    margin-top: 30px;
+    padding: 50px 0px 0px 0px;
+}
+
+.footer > .container > .row > .col-md-3, .footer > .container > .row > .col-md-4 {
+	padding-bottom: 50px;
+}
